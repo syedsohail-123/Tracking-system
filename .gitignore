@@ -1,0 +1,43 @@
+# ============================================
+# Python / Django Backend
+# ============================================
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+*.sqlite3
+migrations/
+
+# ============================================
+# Node / React Frontend
+# ============================================
+node_modules/
+dist/
+.vite/
+*.local
+
+# ============================================
+# Terraform / Infra (contains secrets)
+# ============================================
+infra/user_data.sh
+infra/.terraform/
+infra/*.tfstate
+infra/*.tfstate.backup
+infra/.terraform.lock.hcl
+
+# ============================================
+# OS & Editor files
+# ============================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
